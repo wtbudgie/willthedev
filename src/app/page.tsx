@@ -15,8 +15,8 @@ export default function Component() {
   const projects = [
     {
       title: "SpectraX",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "/placeholder.svg?height=100&width=200",
+      description: "SpectraX is a lightweight but powerful 3D engine equipped with all the features you could need to bring your next game to life.",
+      image: "/spectrax.png?height=100&width=200",
       url: null
     },
     {
