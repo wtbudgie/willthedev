@@ -3,7 +3,7 @@
 import { useRef } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Discord, Mail, ArrowDown } from 'lucide-react'
+import { Github, User, Mail, ArrowDown } from 'lucide-react'
 
 export default function Component() {
   const projectsRef = useRef<HTMLElement>(null)
