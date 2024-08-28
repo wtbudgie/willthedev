@@ -3,7 +3,7 @@
 import { useRef } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Twitter, Mail, ArrowDown } from 'lucide-react'
+import { Github, Discord, Mail, ArrowDown } from 'lucide-react'
 
 export default function Component() {
   const projectsRef = useRef<HTMLElement>(null)
@@ -40,6 +40,10 @@ export default function Component() {
               <a href="https://github.com/wtbudgie" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
                 <Github className="w-6 h-6" />
                 <span className="sr-only">GitHub</span>
+              </a>
+              <a href="https://discord.gg/UwewEPyQPH" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <Discord className="w-6 h-6" />
+                <span className="sr-only">Discord</span>
               </a>
               <a href="mailto:will@wjanderson08.com" className="text-gray-300 hover:text-blue-400 transition-colors">
                 <Mail className="w-6 h-6" />
