@@ -22,7 +22,7 @@ export default function Component() {
     {
       title: "Password Manager",
       description: "A simple password manager written in python for my Applied Computing VCE Unit 2 Outcome 1 SAC. Uitilising encryption and password storage.",
-      image: "/placeholder.svg?height=100&width=200",
+      image: "/pwmanager.png?height=100&width=200",
       url: "https://github.com/wtbudgie/password-manager"
     },
   ]
